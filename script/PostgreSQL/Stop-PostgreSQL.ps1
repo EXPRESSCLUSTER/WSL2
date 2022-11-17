@@ -1,7 +1,7 @@
 #==============================
 # Set parameters
 #------------------------------
-$vhdx = "M:\vhdx\postgresql.vhdx"
+$vhdx = "M:\postgres.vhdx"
 #==============================
 
 wsl --shutdown
