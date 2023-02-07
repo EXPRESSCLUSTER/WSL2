@@ -222,11 +222,11 @@
 1. Add Script Resource.
    1. [Detail] tab
       1. Replace start.bat and stop.bat with the following files.
-        - [start.bat](../script/PostgreSQL/start.bat)
-        - [stop.bat](../script/PostgreSQL/stop.bat)
+         - [start.bat](../script/PostgreSQL/start.bat)
+         - [stop.bat](../script/PostgreSQL/stop.bat)
       1. Add the following files.
-        - [Start-PostgreSQL.ps1](../script/PostgreSQL/Start-PostgreSQL.ps1)
-        - [Stop-PostgreSQL.ps1](../script/PostgreSQL/Stop-PostgreSQL.ps1)
+         - [Start-PostgreSQL.ps1](../script/PostgreSQL/Start-PostgreSQL.ps1)
+         - [Stop-PostgreSQL.ps1](../script/PostgreSQL/Stop-PostgreSQL.ps1)
       1. Click [Tuning].
       1. Set the user account to [Exec User].
 1. Apply the configuration file.
@@ -253,10 +253,3 @@
        userw                             : Normal
     =====================================================================
    ```
-<!--
-## Add Database Monitor
-1. Download PostgreSQL installer for Windows.
-   - https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
-1. Install Command Line Tools on both servres.
-1. Start Cluster WebUI.
--->
